@@ -1,0 +1,86 @@
+#root {
+  max-width: 550px;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+body{
+  margin: 0;
+}
+.navbar{
+  display: flex;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+  height: 70px;
+  width: 550px;
+  align-items: center;
+}
+.logo{
+  padding: 15px;
+}
+.photo-grid{
+  padding: 26px 77px;
+  max-width: 400px;
+  align-self: center;
+}
+.title{
+  align-self: left;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 110%;
+  padding: 0 167px 0 36px;
+  margin: 0;
+}
+.text{
+  align-self: left;
+  font-size: 16px;
+  padding: 16px 194px 49px 36px;
+  margin: 0;
+}
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+  padding-left: 18px;
+  scrollbar-width: none;
+}
+.container::-webkit-scrollbar{
+  display: none;
+}
+.card{
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  position: relative;
+}
+.card-title{
+  font-size: 12px;
+  margin: 0;
+}
+.card-cost{
+  font-size: 12px;
+  margin: 0;
+}
+.reviews{
+  font-size: 12px;
+  margin: 0;
+}
+.card-img{
+  border-radius: 9px;
+  height: 235px;
+  width: 176px;
+}
+.location{
+  font-size: 12px;
+  color: gray;
+}
+.img-badge {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 2px;
+  font-weight: bold;
+}
